@@ -48,3 +48,12 @@ export default tseslint.config({
   },
 })
 ```
+## Public Transit Route Repository Web Application
+This project is a web-based Public Transit Route Repository application developed using React. Users can create, manage, and visualize transit routes on an interactive map. Routes can be exported and imported via CSV, and all data is saved locally in the browser's Local Storage.
+
+## Features
+Add Transit Routes: Users can add new routes with multiple stops, specifying names, direction, status, and coordinates for each stop.
+Update and Delete Routes: Existing routes can be updated or deleted.
+CSV Export and Import: Routes can be exported to CSV format and imported via CSV files.
+Local Storage: The routes are stored locally in the browser's local storage, allowing persistence across refreshes.
+Map Visualization: Each route and its stops are displayed on a map for easy visualization.
