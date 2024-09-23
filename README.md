@@ -27,14 +27,19 @@ This project is a web-based Public Transit Route Repository application develope
 
 Before you begin, ensure you have met the following requirements:
 
-- **Node.js**: You should have Node.js installed. You can download it from [nodejs.org](https://nodejs.org).
-- **npm** Package manager will install project dependencies.
+- **Node.js**: You should have Node.js(v20.12.2) installed. You can download it from [nodejs.org](https://nodejs.org).
+- **npm** Package manager will install project dependencies(10.5.0).
 
 ## Installation
 
 1. **Clone the repository**:
 
-2. **Install dependencies**:
+    ``` js
+    git clone https://github.com/shashankgpt98/chalo-assignment-shashank.git
+    cd chalo-assignment-shashank
+    ```
+
+3. **Install dependencies**:
 
     ```js
     npm install
@@ -44,6 +49,7 @@ Before you begin, ensure you have met the following requirements:
     ```js
    npm run dev
     ```
+This will start the React application locally. Open http://localhost:{PORT} in your browser to view it.
 
 ## Usage
 
