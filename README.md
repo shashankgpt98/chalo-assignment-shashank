@@ -135,8 +135,7 @@ Route ID, Route Name, Direction,Status,Stop Name,Latitude,Longitude
  │    │    ├── RouteList.tsx      # List component displaying all routes
  │    └── /MapView
  │         ├── MapView.tsx        # Map component for visualizing routes
- ├── /utils
- │    ├── utils.ts                # Utility functions (CSV handling, local storage management)
+ ├── /utils.ts                    # Utility functions (CSV handling, local storage management)
  ├── App.tsx                      # Main application file
  └── types.ts                     # TypeScript types for routes and stops
 ```
