@@ -98,7 +98,7 @@ const App: React.FC = () => {
     reader.onload = () => {
       const text = reader.result as string;
       const lines = text.split("\n");
-      const newRoutes: any = [];
+      const newRoutes = [];
       lines.slice(1).forEach((line) => {
         const [
           routeId,

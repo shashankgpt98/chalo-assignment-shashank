@@ -1,7 +1,5 @@
-// Route.style.ts
 import styled from 'styled-components';
 
-// Styles for RouteForm
 export const FormContainer = styled.form`
   display: flex;
   flex-direction: column;
@@ -80,7 +78,6 @@ export const StopDeleteButton = styled.button`
   }
 `;
 
-// Styles for RouteList
 export const RouteContainer = styled.div`
   margin-top: 20px;
   padding: 20px;
@@ -131,22 +128,22 @@ export const RouteButton = styled.button`
 `;
 
 export const UpdateRouteButton = styled(RouteButton)`
-  background-color: #4caf50; /* Green */
+  background-color: #4caf50; 
   color: white;
-  margin-top: 10px; /* Top margin */
+  margin-top: 10px; 
 
   &:hover {
-    background-color: #45a049; /* Darker green */
+    background-color: #45a049; 
   }
 `;
 
 export const DeleteRouteButton = styled(RouteButton)`
-  background-color: #f44336; /* Red */
+  background-color: #f44336;
   color: white;
-  margin-top: 10px; /* Top margin */
+  margin-top: 10px; 
 
   &:hover {
-    background-color: #e53935; /* Darker red */
+    background-color: #e53935;
   }
 `;
 

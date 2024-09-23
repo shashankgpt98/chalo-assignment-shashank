@@ -68,14 +68,4 @@ button:focus-visible {
   }
 }
 
-.arrow-marker {
-  width: 40px;
-  height: 40px;
-  background-image: url("src/assets/down-arrow-svgrepo-com.svg"); /* Your arrow icon */
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform-origin: center center; /* Ensure rotation happens from the center */
-  pointer-events: none; /* Makes the marker non-clickable */
-  transform: rotate(135deg) translateZ(120deg) !important;
-  /* -webkit-transform: rotateZ(135deg) !important; */
-}
+

@@ -33,7 +33,6 @@ export const createRouteInLocalStorage = (key: string, routes) => {
   localStorage.setItem(key, JSON.stringify(routes));
 };
 
-// Utility function to get routes from local storage
 export const getRoutesFromLocalStorage = (key: string) => {
   const storedRoutes = localStorage.getItem(key);
   return storedRoutes ? JSON.parse(storedRoutes) : [];
