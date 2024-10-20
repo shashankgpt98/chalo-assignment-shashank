@@ -10,6 +10,7 @@ import {
 } from "./component/utils";
 import { styled } from "styled-components";
 import MapView from "./component/MapView/MapView";
+import { BottomMargin } from "./App.style";
 
 const ExportButton = styled.button<{ disabled?: boolean }>`
   background-color: ${(props) => (props.disabled ? "#ccc" : "#007bff")};
@@ -34,9 +35,6 @@ const FileInput = styled.input`
   font-size: 14px;
 `;
 
-const BottomMargin = styled.div`
-  margin-bottom: 16px;
-`;
 
 const App: React.FC = () => {
   const [routes, setRoutes] = useState<TransitRoute[]>([]);
