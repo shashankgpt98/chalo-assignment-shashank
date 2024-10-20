@@ -10,7 +10,7 @@ import {
 } from "./component/utils";
 import { styled } from "styled-components";
 import MapView from "./component/MapView/MapView";
-import { BottomMargin, ExportButton, FileInput } from "./App.style";
+import { BottomMargin, ExportButton, FileInput } from "./styled"
 
 const App: React.FC = () => {
   const [routes, setRoutes] = useState<TransitRoute[]>([]);
