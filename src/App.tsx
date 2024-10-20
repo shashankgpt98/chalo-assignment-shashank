@@ -10,7 +10,7 @@ import {
 } from "./component/utils";
 import { styled } from "styled-components";
 import MapView from "./component/MapView/MapView";
-import { BottomMargin } from "./App.style";
+import { BottomMargin, FileInput } from "./App.style";
 
 const ExportButton = styled.button<{ disabled?: boolean }>`
   background-color: ${(props) => (props.disabled ? "#ccc" : "#007bff")};
@@ -27,13 +27,7 @@ const ExportButton = styled.button<{ disabled?: boolean }>`
   }
 `;
 
-const FileInput = styled.input`
-  margin: 20px 0;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
-`;
+
 
 
 const App: React.FC = () => {
