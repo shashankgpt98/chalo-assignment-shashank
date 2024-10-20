@@ -10,25 +10,7 @@ import {
 } from "./component/utils";
 import { styled } from "styled-components";
 import MapView from "./component/MapView/MapView";
-import { BottomMargin, FileInput } from "./App.style";
-
-const ExportButton = styled.button<{ disabled?: boolean }>`
-  background-color: ${(props) => (props.disabled ? "#ccc" : "#007bff")};
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
-  margin: 20px 10px;
-
-  &:hover {
-    background-color: ${(props) => (props.disabled ? "#ccc" : "#0056b3")};
-  }
-`;
-
-
-
+import { BottomMargin, ExportButton, FileInput } from "./App.style";
 
 const App: React.FC = () => {
   const [routes, setRoutes] = useState<TransitRoute[]>([]);
